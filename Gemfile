@@ -59,6 +59,7 @@ group :development, :test do
   gem 'launchy'
   gem 'orderly'
   gem 'shoulda-matchers'
+  gem 'google-api-client', require: 'google/apis/calendar_v3'
 end
 
 group :development do
